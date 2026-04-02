@@ -1,4 +1,4 @@
-# Car Evaluation Prediction Interface 🚗
+# Car Evaluation Prediction Interface 
 
 This project provides an interactive web interface to predict the acceptability rating of a car based on its attributes. This is built using a machine learning model trained on the classic Car Evaluation Dataset, using scikit-learn and Streamlit.
 
