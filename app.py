@@ -84,10 +84,10 @@ if st.button("Predict Acceptability"):
     st.markdown("<br>", unsafe_allow_html=True)
     
     if prediction == 'unacc':
-        st.error(f"### Result: Unacceptable (unacc) ❌\nThis car does not meet basic acceptability criteria based on the given features.")
+        st.error(f"Result: Unacceptable (unacc) \nThis car does not meet basic acceptability criteria based on the given features.")
     elif prediction == 'acc':
-        st.warning(f"### Result: Acceptable (acc) ✅\nThis car meets basic acceptability standards.")
+        st.warning(f"Result: Acceptable (acc) \nThis car meets basic acceptability standards.")
     elif prediction == 'good':
-        st.success(f"### Result: Good (good) 🌟\nThis is a good choice for a car!")
+        st.success(f"Result: Good (good) \nThis is a good choice for a car!")
     elif prediction == 'vgood':
-        st.success(f"### Result: Very Good (vgood) 🏆\nThis car represents an excellent choice with high standards across the board!")
+        st.success(f"Result: Very Good (vgood) \nThis car represents an excellent choice with high standards across the board!")
